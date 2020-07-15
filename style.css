@@ -31,14 +31,17 @@ header ul li{
   display: inline-block;
   line-height: 90px;
   margin-right: 90px;
-  
 
 }
 
 main {
   width: 960px;
   margin: 0px auto;
+  margin-bottom: 30px;
   
+}
+h1 {
+  font-size: 18pt;
 }
 
 main > img:first-child {
@@ -64,6 +67,7 @@ main > article {
   overflow: hidden;  /* this is were the bottom disappears */
   
 }
+
 main > article > * {
   float: left;
   width: 50%;
@@ -74,6 +78,7 @@ main > article > section {
 }
 
 main > article > section > p {
+  margin-top: 5px;
   height: 300px;
   overflow: auto;
 
@@ -83,6 +88,11 @@ footer {
   height: 100px;
   background-color: #444;
   margin-top: 30px:
+  
+  
+}
+button{
+  margin-top: 15px;
 }
 
 button:hover  {
